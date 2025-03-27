@@ -2,7 +2,7 @@
 
 import argparse
 import json
-from gui import start_gui
+from cli import start_gui
 from cli import start_cli
 
 def load_config(config_file="config.json"):

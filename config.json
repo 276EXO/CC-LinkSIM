@@ -1,0 +1,20 @@
+{
+    "baud_rate": 9600,
+    "parity": "N",
+    "stop_bits": 1,
+    "devices": [
+      {
+        "id": 1,
+        "registers": {
+          "0x0000": 123,
+          "0x0001": 456
+        }
+      },
+      {
+        "id": 2,
+        "registers": {
+          "0x0000": 789
+        }
+      }
+    ]
+  }
